@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys, getopt, random
 
-categories = ["affectionate", "attractive", "badass", "basic", "cute", "funny", "romantic"]
+categories = ["affectionate", "attractive", "badass", "basic", "cute", "funny", "romantic", "insult"]
 
 def main(argv):
     opts, args = getopt.getopt(argv,"h", ["category=", "sentence="])
